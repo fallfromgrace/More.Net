@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "More.Net", "More.Net\More.Net.csproj", "{94D8E582-B456-4692-8E03-0489C4DC4954}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{ACDA6111-4196-4A71-B2A1-AAA21BA0460C}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "More.Net.Tests", "More.Net.Tests\More.Net.Tests.csproj", "{12365151-42F6-4DF9-83A3-6795CB5FE1CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "More.Net.Logging", "More.Net.Logging\More.Net.Logging.csproj", "{176A7307-4F0E-40E2-8CB2-BC036DFD1F74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "More.Net.Console", "More.Net.Console\More.Net.Console.csproj", "{D6DF465C-5615-44D0-8876-8FF46E8D1287}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".git", ".git", "{6C9C073A-9EBD-4F62-B8CE-12132D087A2F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94D8E582-B456-4692-8E03-0489C4DC4954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D8E582-B456-4692-8E03-0489C4DC4954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D8E582-B456-4692-8E03-0489C4DC4954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D8E582-B456-4692-8E03-0489C4DC4954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12365151-42F6-4DF9-83A3-6795CB5FE1CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12365151-42F6-4DF9-83A3-6795CB5FE1CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12365151-42F6-4DF9-83A3-6795CB5FE1CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12365151-42F6-4DF9-83A3-6795CB5FE1CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{176A7307-4F0E-40E2-8CB2-BC036DFD1F74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{176A7307-4F0E-40E2-8CB2-BC036DFD1F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{176A7307-4F0E-40E2-8CB2-BC036DFD1F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{176A7307-4F0E-40E2-8CB2-BC036DFD1F74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6DF465C-5615-44D0-8876-8FF46E8D1287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6DF465C-5615-44D0-8876-8FF46E8D1287}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6DF465C-5615-44D0-8876-8FF46E8D1287}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6DF465C-5615-44D0-8876-8FF46E8D1287}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{94D8E582-B456-4692-8E03-0489C4DC4954}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>More.Net</RootNamespace>
+    <AssemblyName>More.Net</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\..\EZMetrology\EZMetrology.EZGauges\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <CodeContractsAssemblyMode>1</CodeContractsAssemblyMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeContractsEnableRuntimeChecking>True</CodeContractsEnableRuntimeChecking>
+    <CodeContractsRuntimeOnlyPublicSurface>False</CodeContractsRuntimeOnlyPublicSurface>
+    <CodeContractsRuntimeThrowOnFailure>True</CodeContractsRuntimeThrowOnFailure>
+    <CodeContractsRuntimeCallSiteRequires>False</CodeContractsRuntimeCallSiteRequires>
+    <CodeContractsRuntimeSkipQuantifiers>False</CodeContractsRuntimeSkipQuantifiers>
+    <CodeContractsRunCodeAnalysis>False</CodeContractsRunCodeAnalysis>
+    <CodeContractsNonNullObligations>True</CodeContractsNonNullObligations>
+    <CodeContractsBoundsObligations>True</CodeContractsBoundsObligations>
+    <CodeContractsArithmeticObligations>True</CodeContractsArithmeticObligations>
+    <CodeContractsEnumObligations>True</CodeContractsEnumObligations>
+    <CodeContractsRedundantAssumptions>True</CodeContractsRedundantAssumptions>
+    <CodeContractsAssertsToContractsCheckBox>True</CodeContractsAssertsToContractsCheckBox>
+    <CodeContractsRedundantTests>True</CodeContractsRedundantTests>
+    <CodeContractsMissingPublicRequiresAsWarnings>True</CodeContractsMissingPublicRequiresAsWarnings>
+    <CodeContractsMissingPublicEnsuresAsWarnings>False</CodeContractsMissingPublicEnsuresAsWarnings>
+    <CodeContractsInferRequires>True</CodeContractsInferRequires>
+    <CodeContractsInferEnsures>False</CodeContractsInferEnsures>
+    <CodeContractsInferEnsuresAutoProperties>True</CodeContractsInferEnsuresAutoProperties>
+    <CodeContractsInferObjectInvariants>False</CodeContractsInferObjectInvariants>
+    <CodeContractsSuggestAssumptions>False</CodeContractsSuggestAssumptions>
+    <CodeContractsSuggestAssumptionsForCallees>False</CodeContractsSuggestAssumptionsForCallees>
+    <CodeContractsSuggestRequires>False</CodeContractsSuggestRequires>
+    <CodeContractsNecessaryEnsures>True</CodeContractsNecessaryEnsures>
+    <CodeContractsSuggestObjectInvariants>False</CodeContractsSuggestObjectInvariants>
+    <CodeContractsSuggestReadonly>True</CodeContractsSuggestReadonly>
+    <CodeContractsRunInBackground>True</CodeContractsRunInBackground>
+    <CodeContractsShowSquigglies>True</CodeContractsShowSquigglies>
+    <CodeContractsUseBaseLine>False</CodeContractsUseBaseLine>
+    <CodeContractsEmitXMLDocs>False</CodeContractsEmitXMLDocs>
+    <CodeContractsCustomRewriterAssembly />
+    <CodeContractsCustomRewriterClass />
+    <CodeContractsLibPaths />
+    <CodeContractsExtraRewriteOptions />
+    <CodeContractsExtraAnalysisOptions />
+    <CodeContractsSQLServerOption />
+    <CodeContractsBaseLineFile />
+    <CodeContractsCacheAnalysisResults>True</CodeContractsCacheAnalysisResults>
+    <CodeContractsSkipAnalysisIfCannotConnectToCache>False</CodeContractsSkipAnalysisIfCannotConnectToCache>
+    <CodeContractsFailBuildOnWarnings>False</CodeContractsFailBuildOnWarnings>
+    <CodeContractsBeingOptimisticOnExternal>True</CodeContractsBeingOptimisticOnExternal>
+    <CodeContractsRuntimeCheckingLevel>Full</CodeContractsRuntimeCheckingLevel>
+    <CodeContractsReferenceAssembly>%28none%29</CodeContractsReferenceAssembly>
+    <CodeContractsAnalysisWarningLevel>0</CodeContractsAnalysisWarningLevel>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\Debug\More.Net.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .NET Framework is automatically included -->
+    <EmbeddedResource Include="Units\Resources\LengthUnit.fr-FR.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>LengthUnit.fr-FR1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Units\Resources\LengthUnit.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>LengthUnit1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Units\Resources\Speed.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Speed1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Units\Resources\TimeUnit.fr-FR.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TimeUnit.fr-FR1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Units\Resources\TimeUnit.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TimeUnit1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArraySlice.cs" />
+    <Compile Include="Channels\Bluetooth\BluetoothAddress.cs" />
+    <Compile Include="Channels\Bluetooth\DeviceClass.cs" />
+    <Compile Include="Channels\Bluetooth\IBluetoothChannel.cs" />
+    <Compile Include="Channels\IChannel.cs" />
+    <Compile Include="Channels\IChannelStream.cs" />
+    <Compile Include="Channels\IReadStream.cs" />
+    <Compile Include="Channels\IReadStreamExtensions.cs" />
+    <Compile Include="Channels\IWriteStream.cs" />
+    <Compile Include="Channels\IWriteStreamExtensions.cs" />
+    <Compile Include="Channels\Ports\ISerialChannel.cs" />
+    <Compile Include="CharEnumerator.cs" />
+    <Compile Include="ByteArrayExtensions.cs" />
+    <Compile Include="Collections\Generic\ArrayExtensions\AsReadOnly.cs" />
+    <Compile Include="Collections\Generic\ArrayExtensions\Concat.cs" />
+    <Compile Include="Collections\Generic\ArrayExtensions\SubArray.cs" />
+    <Compile Include="Collections\Generic\BulkObservableCollection.cs" />
+    <Compile Include="Collections\Generic\IBulkCollection.cs" />
+    <Compile Include="Collections\Generic\LinkedListExtensions.cs" />
+    <Compile Include="Collections\Generic\PriorityQueue.cs" />
+    <Compile Include="Collections\Generic\SynchronizedObservableCollection.cs" />
+    <Compile Include="Data\IRepository.cs" />
+    <Compile Include="Data\IRepositoryService.cs" />
+    <Compile Include="Either.cs" />
+    <Compile Include="Endian.cs" />
+    <Compile Include="EnumExtensions.cs" />
+    <Compile Include="EventHandlerExtensions.cs" />
+    <Compile Include="FloatingPointExtensions.cs" />
+    <Compile Include="Int24.cs" />
+    <Compile Include="Int48.cs" />
+    <Compile Include="Linq\AsReadOnly.cs" />
+    <Compile Include="Linq\Catch.cs" />
+    <Compile Include="Linq\Concat.cs" />
+    <Compile Include="Linq\Curry.cs" />
+    <Compile Include="Linq\Disposable.cs" />
+    <Compile Include="Linq\DistinctBy.cs" />
+    <Compile Include="Linq\Do.cs" />
+    <Compile Include="Linq\Enumerable.cs" />
+    <Compile Include="Linq\ExponentialMovingAverage.cs" />
+    <Compile Include="Linq\Expressions\ExpressionExtensions.cs" />
+    <Compile Include="Linq\Expressions\Function.cs" />
+    <Compile Include="Linq\ForEach.cs" />
+    <Compile Include="Linq\Join.cs" />
+    <Compile Include="Linq\MaxBy.cs" />
+    <Compile Include="Linq\Maybe.cs" />
+    <Compile Include="Linq\MinBy.cs" />
+    <Compile Include="Linq\MovingAverage.cs" />
+    <Compile Include="Linq\Scan.cs" />
+    <Compile Include="Linq\SkipLast.cs" />
+    <Compile Include="Linq\SkipSelect.cs" />
+    <Compile Include="Linq\ToString.cs" />
+    <Compile Include="Linq\Y.cs" />
+    <Compile Include="Logging\ILogger.cs" />
+    <Compile Include="MathExtensions.cs" />
+    <Compile Include="Media\Bitmap\BitmapImageInfo.cs" />
+    <Compile Include="Media\Bitmap\ChannelMask.cs" />
+    <Compile Include="Media\Bitmap\IBitmapImage.cs" />
+    <Compile Include="Media\Bitmap\PixelFormat.cs" />
+    <Compile Include="Media\ICamera.cs" />
+    <Compile Include="Media\ICameraDiscovery.cs" />
+    <Compile Include="Media\ICameraExtensions.cs" />
+    <Compile Include="Media\ICameraProperty.cs" />
+    <Compile Include="Media\IFrame.cs" />
+    <Compile Include="Media\IFrameGrabber.cs" />
+    <Compile Include="Media\IFrameGrabberConfiguration.cs" />
+    <Compile Include="Media\IFrameGrabberFactory.cs" />
+    <Compile Include="Media\IVideoFrameGrabber.cs" />
+    <Compile Include="Media\Riff\Chunk.cs" />
+    <Compile Include="Media\Riff\RiffChunk.cs" />
+    <Compile Include="Media\Riff\RiffEncoding.cs" />
+    <Compile Include="Media\Riff\RiffFile.cs" />
+    <Compile Include="Media\Riff\Wave\AudioFormat.cs" />
+    <Compile Include="Media\Riff\Wave\DataChunk.cs" />
+    <Compile Include="Media\Riff\Wave\FactChunk.cs" />
+    <Compile Include="Media\Riff\Wave\FormatChunk.cs" />
+    <Compile Include="Media\Riff\Wave\SilentChunk.cs" />
+    <Compile Include="Media\Riff\Wave\WaveListChunk.cs" />
+    <Compile Include="ObjectExtensions.cs" />
+    <Compile Include="Point2.cs" />
+    <Compile Include="Point3.cs" />
+    <Compile Include="PrimitiveExtensions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reactive\Disposables\DisposableExtensions.cs" />
+    <Compile Include="Reactive\Linq\Drain.cs" />
+    <Compile Include="Reactive\Linq\Either\Either.cs" />
+    <Compile Include="Reactive\Linq\Either\Either.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Either.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Reactive\Linq\Either\Either.Subscribe.cs" />
+    <Compile Include="Reactive\Linq\Either\Either.Take.cs" />
+    <Compile Include="Reactive\Linq\Either\Either2.cs" />
+    <Compile Include="Reactive\Linq\Either\EitherFactory.cs" />
+    <Compile Include="Reactive\Linq\Either\IEither.cs" />
+    <Compile Include="Reactive\Linq\Either\IEitherFactory.cs" />
+    <Compile Include="Reactive\Linq\Observable.cs" />
+    <Compile Include="Reactive\Linq\Pace.cs" />
+    <Compile Include="Reactive\Linq\ScanWhere.cs" />
+    <Compile Include="Rectangle.cs" />
+    <Compile Include="Reflection\ConstructorInfoExtensions\CreateObject.cs" />
+    <Compile Include="Reflection\MethodInfoExtensions\CreateAction.cs" />
+    <Compile Include="Reflection\MethodInfoExtensions\CreateDelegate.cs" />
+    <Compile Include="Reflection\MethodInfoExtensions\CreateFunction.cs" />
+    <Compile Include="Reflection\ObjectExtensions.cs" />
+    <Compile Include="Reflection\PropertyInfoExtensions.cs" />
+    <Compile Include="Security\Cryptography\IHashAlgorithm.cs" />
+    <Compile Include="Security\Cryptography\IMd5HashAlgorithm.cs" />
+    <Compile Include="Security\ILicense.cs" />
+    <Compile Include="Security\ILicenseProvider.cs" />
+    <Compile Include="Size.cs" />
+    <Compile Include="StringExtensions.cs" />
+    <Compile Include="Threading\Tasks\AsyncLock.cs" />
+    <Compile Include="Threading\Tasks\AsyncSemaphore.cs" />
+    <Compile Include="UInt24.cs" />
+    <Compile Include="UInt48.cs" />
+    <Compile Include="Units\Angle.cs" />
+    <Compile Include="Units\AngleUnit.cs" />
+    <Compile Include="Units\Dynamic\Exponent.cs" />
+    <Compile Include="Units\Dynamic\Unit.cs" />
+    <Compile Include="Units\IQuantity.cs" />
+    <Compile Include="Units\IQuantityExtensions.cs" />
+    <Compile Include="Units\Length.cs" />
+    <Compile Include="Units\LengthUnit.cs" />
+    <Compile Include="Units\Resources\LengthUnit.fr-FR.Designer.cs" />
+    <Compile Include="Units\Resources\LengthUnit.fr-FR1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LengthUnit.fr-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Units\Resources\LengthUnit1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LengthUnit.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Units\Resources\Speed1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Speed.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Units\Resources\TimeUnit.fr-FR.Designer.cs" />
+    <Compile Include="Units\Resources\TimeUnit.fr-FR1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TimeUnit.fr-FR.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Units\Resources\TimeUnit1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TimeUnit.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Units\Speed.cs" />
+    <Compile Include="Units\SpeedUnit.cs" />
+    <Compile Include="Units\Time.cs" />
+    <Compile Include="Units\TimeUnit.cs" />
+    <Compile Include="Units\UnitFormatProvider.cs" />
+    <Compile Include="VersionInfo.cs" />
+    <Compile Include="Xml\Linq\XContainerExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Media\Riff\Avi\" />
+    <Folder Include="Units\Experimental\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="More.Net.symbols.nuspec" />
+    <None Include="packages.config" />
+    <None Include="Reactive\Linq\Either\Either.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Either.g.cs</LastGenOutput>
+    </None>
+    <None Include="More.Net.nuspec" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Reactive.Core">
+      <HintPath>..\packages\Rx-Core.2.2.5\lib\portable-net45+winrt45+wp8+wpa81\System.Reactive.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reactive.Interfaces">
+      <HintPath>..\packages\Rx-Interfaces.2.2.5\lib\portable-net45+winrt45+wp8+wpa81\System.Reactive.Interfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reactive.Linq">
+      <HintPath>..\packages\Rx-Linq.2.2.5\lib\portable-net45+winrt45+wp8+wpa81\System.Reactive.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reactive.PlatformServices">
+      <HintPath>..\packages\Rx-PlatformServices.2.2.5\lib\portable-net45+winrt45+wp8+wpa81\System.Reactive.PlatformServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <PropertyGroup>
+    <PostBuildEvent>$(SolutionDir).nuget\NuGet.exe pack $(ProjectPath) -IncludeReferencedProjects -Symbols -OutputDirectory $(SolutionDir)..\..\Packages\NuGet\</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
