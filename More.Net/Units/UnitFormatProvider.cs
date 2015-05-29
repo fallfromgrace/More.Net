@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Reflection;
-using Light.Linq;
+using More.Net.Linq;
 
-namespace EZMetrology.Units
+namespace More.Net.Units
 {
     public interface IUnitFormatProvider : IFormatProvider
     {

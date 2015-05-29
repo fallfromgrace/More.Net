@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace Light.Xml.Linq
+namespace More.Net.Xml.Linq
 {
     public static class XContainerExtensions
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EZMetrology
+namespace More.Net
 {
     /// <summary>
     /// 

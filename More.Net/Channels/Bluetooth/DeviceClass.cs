@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EZMetrology.Channels.Bluetooth
+namespace More.Net.Channels.Bluetooth
 {
     public enum DeviceClass
     {

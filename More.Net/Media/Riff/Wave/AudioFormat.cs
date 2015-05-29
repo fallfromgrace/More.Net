@@ -1,4 +1,4 @@
-﻿namespace EZMetrology.Media.Riff.Wave
+﻿namespace More.Net.Media.Riff.Wave
 {
     /// <summary>
     /// 

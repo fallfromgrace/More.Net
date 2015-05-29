@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Light
+namespace More.Net
 {
-    /// <summary>
-    /// 
-    /// </summary>
+    ///// <summary>
+    ///// 
+    ///// </summary>
     //public static class ObjectExtensions
     //{
     //    /// <summary>

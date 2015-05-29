@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EZMetrology.Units.Experimental
+namespace More.Net.Units.Experimental
 {
     /// <summary>
     /// Encapsulates base functionality for a unit of measure.
@@ -30,16 +30,21 @@ namespace EZMetrology.Units.Experimental
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="toMeter"></param>
-        /// <param name="name"></param>
-        /// <param name="abbreviation"></param>
-        /// <param name="system"></param>
+        /// <param name="conversionFactor"></param>
+        /// <param name="exponent"></param>
         public Unit(Double conversionFactor, Exponent exponent)
         {
             this.conversionFactor = conversionFactor;
             this.exponent = exponent;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="key"></param>
+        /// <param name="unit"></param>
+        /// <param name="power"></param>
+        /// <returns></returns>
         public static Unit Pow(String key, Unit unit, Int32 power)
         {
             return new KeyUnit(
@@ -48,6 +53,13 @@ namespace EZMetrology.Units.Experimental
                 unit.exponent.Pow(power));
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="key"></param>
+        /// <param name="left"></param>
+        /// <param name="right"></param>
+        /// <returns></returns>
         public static Unit Mul(String key, Unit left, Unit right)
         {
             return new KeyUnit(
@@ -76,10 +88,9 @@ namespace EZMetrology.Units.Experimental
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="toMeter"></param>
-        /// <param name="name"></param>
-        /// <param name="abbreviation"></param>
-        /// <param name="system"></param>
+        /// <param name="key"></param>
+        /// <param name="conversionFactor"></param>
+        /// <param name="exponent"></param>
         public KeyUnit(String key, Double conversionFactor, Exponent exponent) : 
             base(conversionFactor, exponent)
         {
@@ -106,10 +117,7 @@ namespace EZMetrology.Units.Experimental
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="toMeter"></param>
-        /// <param name="name"></param>
-        /// <param name="abbreviation"></param>
-        /// <param name="system"></param>
+        /// <param name="units"></param>
         public AggregateUnit(params Unit[] units) :
             base(GetConversionFactor(units), GetExponent(units))
         {

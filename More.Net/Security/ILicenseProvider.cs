@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EZMetrology.Security
+namespace More.Net.Security
 {
     /// <summary>
     /// 
@@ -14,7 +14,6 @@ namespace EZMetrology.Security
         /// <summary>
         /// 
         /// </summary>
-        /// <typeparam name="TLicenseTerms"></typeparam>
         /// <returns></returns>
         ILicense Open();
     }

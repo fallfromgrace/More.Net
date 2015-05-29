@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EZMetrology.Units.Experimental
+namespace More.Net.Units.Experimental
 {
     /// <summary>
     /// 

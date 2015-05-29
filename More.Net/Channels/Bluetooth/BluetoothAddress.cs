@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Globalization;
 
-namespace EZMetrology.Channels.Bluetooth
+namespace More.Net.Channels.Bluetooth
 {
     public struct BluetoothAddress
     {

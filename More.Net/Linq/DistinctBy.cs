@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EZMetrology.Linq
+namespace More.Net.Linq
 {
     /// <summary>
     /// 
@@ -57,7 +57,7 @@ namespace EZMetrology.Linq
         /// comparing them by the specified key projection.
         /// </returns>
         /// <exception cref="ArgumentNullException">
-        /// <paramref name="source"/>, <paramref name="selector"/>, or <param name="comparer"/> is null.
+        /// <paramref name="source"/>, <paramref name="selector"/>, or <paramref name="comparer"/> is null.
         /// </exception>
         public static IEnumerable<TSource> DistinctBy<TSource, TKey>(
             this IEnumerable<TSource> source,

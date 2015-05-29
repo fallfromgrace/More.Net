@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Reactive.Linq;
 
-namespace EZMetrology.Reactive.Linq
+namespace More.Net.Reactive.Linq
 {
     public static partial class ObservableExtensions
     {

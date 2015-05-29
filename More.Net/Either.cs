@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Light
+namespace More.Net
 {
     public interface IEither<T1, T2>
     {

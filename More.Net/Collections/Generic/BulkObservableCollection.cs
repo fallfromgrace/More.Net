@@ -5,7 +5,7 @@ using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Linq;
 
-namespace EZMetrology.Collections.Generic
+namespace More.Net.Collections.Generic
 {
     /// <summary>
     /// Represents an observable collection with bulk adding and removing operations.

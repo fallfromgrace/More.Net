@@ -4,7 +4,7 @@
 //using System.Text;
 //using System.Threading.Tasks;
 
-//namespace EZMetrology.Media.Riff.Wave
+//namespace More.Net.Media.Riff.Wave
 //{
 //    class FactChunk
 //    {

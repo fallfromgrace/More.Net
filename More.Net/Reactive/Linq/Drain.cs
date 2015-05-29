@@ -3,7 +3,7 @@ using System.Reactive;
 using System.Reactive.Linq;
 using System.Reactive.Subjects;
 
-namespace EZMetrology.Reactive.Linq
+namespace More.Net.Reactive.Linq
 {
     public static partial class ObservableExtensions
     {

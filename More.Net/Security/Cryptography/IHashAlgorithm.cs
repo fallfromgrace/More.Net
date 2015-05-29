@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EZMetrology.Security.Cryptography
+namespace More.Net.Security.Cryptography
 {
     /// <summary>
     /// 

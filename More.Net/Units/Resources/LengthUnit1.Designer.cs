@@ -143,7 +143,7 @@ namespace More.Net.Units.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Light-year,Light-years,ly.
+        ///   Looks up a localized string similar to More.Net-year,Light-years,ly.
         /// </summary>
         internal static string LightYear {
             get {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace EZMetrology
+namespace More.Net
 {
     /// <summary>
     /// Represents a 24-bit unsigned integer.

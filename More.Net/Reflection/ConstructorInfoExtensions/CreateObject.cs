@@ -2,7 +2,7 @@
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace EZMetrology.Reflection
+namespace More.Net.Reflection
 {
     /// <summary>
     /// 
@@ -25,6 +25,7 @@ namespace EZMetrology.Reflection
         /// <summary>
         /// 
         /// </summary>
+        /// <typeparam name="TParam1"></typeparam>
         /// <typeparam name="TResult"></typeparam>
         /// <param name="source"></param>
         /// <returns></returns>
@@ -39,6 +40,8 @@ namespace EZMetrology.Reflection
         /// <summary>
         /// 
         /// </summary>
+        /// <typeparam name="TParam1"></typeparam>
+        /// <typeparam name="TParam2"></typeparam>
         /// <typeparam name="TResult"></typeparam>
         /// <param name="source"></param>
         /// <returns></returns>

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace EZMetrology
+namespace More.Net
 {
     /// <summary>
     /// 
@@ -61,6 +61,7 @@ namespace EZMetrology
         /// NaN or ±Inf, or the initial result overflows, the result will be null.
         /// </summary>
         /// <remarks>See (http://bit.ly/10KS2wo)</remarks>
+        /// <param name="source"></param>
         /// <param name="direction">
         /// Determines if the epsilon is calculated from the delta of its next value towards zero 
         /// or away from zero. Choose the direction the value moves in. EZeroDirection.TowardsZero 
@@ -123,6 +124,7 @@ namespace EZMetrology
         /// NaN or ±Inf, or the initial result overflows, the result will be null.
         /// </summary>
         /// <remarks>See (http://bit.ly/10KS2wo)</remarks>
+        /// <param name="source"></param>
         /// <param name="direction">
         /// Determines if the epsilon is calculated from the delta of its next value towards zero 
         /// or away from zero. Choose the direction the value moves in. EZeroDirection.TowardsZero 

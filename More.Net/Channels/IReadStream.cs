@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Light.Channels
+namespace More.Net.Channels
 {
     /// <summary>
     /// 

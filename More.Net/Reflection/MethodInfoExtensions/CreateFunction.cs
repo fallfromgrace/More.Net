@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace EZMetrology.Reflection
+namespace More.Net.Reflection
 {
     /// <summary>
     /// 
@@ -38,9 +38,9 @@ namespace EZMetrology.Reflection
         /// <summary>
         /// 
         /// </summary>
-        /// <typeparam name="Tin1"></typeparam>
-        /// <typeparam name="Tin2"></typeparam>
-        /// <typeparam name="Tout"></typeparam>
+        /// <typeparam name="TParam1"></typeparam>
+        /// <typeparam name="TParam2"></typeparam>
+        /// <typeparam name="TResult"></typeparam>
         /// <param name="source"></param>
         /// <returns></returns>
         public static Func<TParam1, TParam2, TResult> CreateFunction<TParam1, TParam2, TResult>(
@@ -52,7 +52,8 @@ namespace EZMetrology.Reflection
         /// <summary>
         /// 
         /// </summary>
-        /// <typeparam name="Tout"></typeparam>
+        /// <typeparam name="TResult"></typeparam>
+        /// <typeparam name="TTarget"></typeparam>
         /// <param name="source"></param>
         /// <param name="target"></param>
         /// <returns></returns>
@@ -66,8 +67,9 @@ namespace EZMetrology.Reflection
         /// <summary>
         /// 
         /// </summary>
-        /// <typeparam name="Tin1"></typeparam>
-        /// <typeparam name="Tout"></typeparam>
+        /// <typeparam name="TParam1"></typeparam>
+        /// <typeparam name="TResult"></typeparam>
+        /// <typeparam name="TTarget"></typeparam>
         /// <param name="source"></param>
         /// <param name="target"></param>
         /// <returns></returns>
@@ -84,6 +86,7 @@ namespace EZMetrology.Reflection
         /// <typeparam name="TParam1"></typeparam>
         /// <typeparam name="TParam2"></typeparam>
         /// <typeparam name="TResult"></typeparam>
+        /// <typeparam name="TTarget"></typeparam>
         /// <param name="source"></param>
         /// <param name="target"></param>
         /// <returns></returns>

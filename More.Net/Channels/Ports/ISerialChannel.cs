@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Light.Channels.Ports
+namespace More.Net.Channels.Ports
 {
     /// <summary>
     /// 
@@ -16,19 +16,19 @@ namespace Light.Channels.Ports
         /// </summary>
         Int32 Baudrate { get; }
 
-        /// <summary>
-        /// 
-        /// </summary>
+        ///// <summary>
+        ///// 
+        ///// </summary>
         //Int32 DataBits { get; }
 
-        /// <summary>
-        /// 
-        /// </summary>
+        ///// <summary>
+        ///// 
+        ///// </summary>
         //Int32 HandShake { get; }
 
-        /// <summary>
-        /// 
-        /// </summary>
+        ///// <summary>
+        ///// 
+        ///// </summary>
         //Int32 Parity { get; }
 
         /// <summary>
@@ -36,9 +36,9 @@ namespace Light.Channels.Ports
         /// </summary>
         String Port { get; }
 
-        /// <summary>
-        /// 
-        /// </summary>
+        ///// <summary>
+        ///// 
+        ///// </summary>
         //Int32 StopBits { get; }
     }
 }

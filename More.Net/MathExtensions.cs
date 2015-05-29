@@ -511,17 +511,17 @@ namespace System
         public static double IEEERemainder(this double x, double y) { return Math.IEEERemainder(x, y); }
      
         /// <summary>Returns the natural (base e) logarithm of a specified number.</summary>
-        /// <returns>See <see cref="Math.Log"/> for details.</returns>
+        /// <returns>See <see cref="System.Math.Log(double)"/> for details.</returns>
         /// <param name="value">A number whose logarithm is to be found.</param>
         public static double Log(this double value) { return Math.Log(value); }
         /// <summary>Returns the logarithm of a specified number in a specified base.</summary>
-        /// <returns>See <see cref="Math.Log"/> for details.</returns>
+        /// <returns>See <see cref="System.Math.Log(double, double)"/> for details.</returns>
         /// <param name="value">A number whose logarithm is to be found.</param>
         /// <param name="newBase">The base of the logarithm.</param>
         public static double Log(this double value, double newBase) { return Math.Log(value, newBase); }
      
         /// <summary>Returns the base 10 logarithm of a specified number.</summary>
-        /// <returns>See <see cref="Math.Log10"/> for details.</returns>
+        /// <returns>See <see cref="System.Math.Log10"/> for details.</returns>
         /// <param name="value">A number whose logarithm is to be found.</param>
         public static double Log10(this double value) { return Math.Log10(value); }
 
@@ -631,7 +631,7 @@ namespace System
         public static bool IsNaN(this double value) { return Double.IsNaN(value); }
         /// <summary>Returns a value indicating whether the specified number evaluates to not a number (<see cref="F:System.Single.NaN"/>).</summary>
         /// <returns>true if value evaluates to not a number (<see cref="F:System.Single.NaN"/>); otherwise, false.</returns>
-        /// <param name="f">A single-precision floating-point number. </param>
+        /// <param name="value">A single-precision floating-point number. </param>
         /// <filterpriority>1</filterpriority>
         public static bool IsNaN(this float value) { return Single.IsNaN(value); }
 
@@ -642,7 +642,7 @@ namespace System
         /// <summary>Retrieves the value of the specified number, or the specified default value if it's not a number (<see cref="F:System.Double.NaN"/>).</summary>
         /// <returns>The value of the <paramref name="value"/> parameter if it doesn't evaluate to <see cref="F:System.Double.NaN"/>; otherwise, the <paramref name="defaultValue"/> parameter.</returns>
         /// <param name="value">A double-precision floating-point number. </param>
-        /// <param name="defaultValue">The value to return if <see cref="IsNaN"/> returns true.</param>
+        /// <param name="defaultValue">The value to return if <see cref="System.MathExtensions.IsNaN(double)"/> returns true.</param>
         public static double GetValueOrDefault(this double value, double defaultValue) { return Double.IsNaN(value) ? defaultValue : value; }
         /// <summary>Retrieves the value of the specified number, or zero if it's not a number (<see cref="F:System.Single.NaN"/>).</summary>
         /// <returns>The value of the <paramref name="value"/> parameter if it doesn't evaluate to <see cref="F:System.Single.NaN"/>; otherwise, 0.0.</returns>
@@ -651,7 +651,7 @@ namespace System
         /// <summary>Retrieves the value of the specified number, or the specified default value if it's not a number (<see cref="F:System.Single.NaN"/>).</summary>
         /// <returns>The value of the <paramref name="value"/> parameter if it doesn't evaluate to <see cref="F:System.Single.NaN"/>; otherwise, the <paramref name="defaultValue"/> parameter.</returns>
         /// <param name="value">A single-precision floating-point number. </param>
-        /// <param name="defaultValue">The value to return if <see cref="IsNaN"/> returns true.</param>
+        /// <param name="defaultValue">The value to return if <see cref="System.MathExtensions.IsNaN(float)"/> returns true.</param>
         public static float GetValueOrDefault(this float value, float defaultValue) { return Single.IsNaN(value) ? defaultValue : value; }
 
         #endregion
@@ -726,6 +726,7 @@ namespace System
         /// <returns>A sequence of numbers from start to (but not including) bound where each number is a given step greater than the previous number.</returns>
         /// <param name="start">The number to start from.</param>
         /// <param name="bound">The number to stop before.</param>
+        /// <param name="step">The number to step.</param>
         public static IEnumerable<decimal> To(this decimal start, decimal bound, decimal step) { for (decimal i = start; i < bound; i += step) yield return i; }
         /// <summary>Generates a sequence of double-precision floating-point values within a specified range.</summary>
         /// <returns>A sequence of numbers from start to (but not including) bound where each number is 1 greater than the previous number.</returns>
@@ -736,6 +737,7 @@ namespace System
         /// <returns>A sequence of numbers from start to (but not including) bound where each number is a given step greater than the previous number.</returns>
         /// <param name="start">The number to start from.</param>
         /// <param name="bound">The number to stop before.</param>
+        /// <param name="step">The number to step.</param>
         public static IEnumerable<double> To(this double start, double bound, double step) { for (double i = start; i < bound; i += step) yield return i; }
         /// <summary>Generates a sequence of single-precision floating-point values within a specified range.</summary>
         /// <returns>A sequence of numbers from start to (but not including) bound where each number is 1 greater than the previous number.</returns>
@@ -746,6 +748,7 @@ namespace System
         /// <returns>A sequence of numbers from start to (but not including) bound where each number is a given step greater than the previous number.</returns>
         /// <param name="start">The number to start from.</param>
         /// <param name="bound">The number to stop before.</param>
+        /// <param name="step">The number to step.</param>
         public static IEnumerable<float> To(this float start, float bound, float step) { for (float i = start; i < bound; i += step) yield return i; }
         /// <summary>Generates a sequence of 64-bit signed integers within a specified range.</summary>
         /// <returns>A sequence of numbers from start to (but not including) bound where each number is 1 greater than the previous number.</returns>
@@ -756,6 +759,7 @@ namespace System
         /// <returns>A sequence of numbers from start to (but not including) bound where each number is a given step greater than the previous number.</returns>
         /// <param name="start">The number to start from.</param>
         /// <param name="bound">The number to stop before.</param>
+        /// <param name="step">The number to step.</param>
         public static IEnumerable<long> To(this long start, long bound, long step) { for (long i = start; i < bound; i += step) yield return i; }
         /// <summary>Generates a sequence of 32-bit signed integers within a specified range.</summary>
         /// <returns>A sequence of numbers from start to (but not including) bound where each number is 1 greater than the previous number.</returns>
@@ -766,6 +770,7 @@ namespace System
         /// <returns>A sequence of numbers from start to (but not including) bound where each number is a given step greater than the previous number.</returns>
         /// <param name="start">The number to start from.</param>
         /// <param name="bound">The number to stop before.</param>
+        /// <param name="step">The number to step.</param>
         public static IEnumerable<int> To(this int start, int bound, int step) { for (int i = start; i < bound; i += step) yield return i; }
         /// <summary>Generates a sequence of 16-bit signed integers within a specified range.</summary>
         /// <returns>A sequence of numbers from start to (but not including) bound where each number is 1 greater than the previous number.</returns>
@@ -776,6 +781,7 @@ namespace System
         /// <returns>A sequence of numbers from start to (but not including) bound where each number is a given step greater than the previous number.</returns>
         /// <param name="start">The number to start from.</param>
         /// <param name="bound">The number to stop before.</param>
+        /// <param name="step">The number to step.</param>
         public static IEnumerable<short> To(this short start, short bound, short step) { for (short i = start; i < bound; i += step) yield return i; }
 
         #endregion

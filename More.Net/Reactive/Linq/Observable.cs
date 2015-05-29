@@ -8,7 +8,7 @@ using System.Reactive.Linq;
 using System.Reactive.Subjects;
 using System.Reactive.Threading.Tasks;
 
-namespace EZMetrology.Reactive.Linq
+namespace More.Net.Reactive.Linq
 {
     public static class ObservableEx
     {

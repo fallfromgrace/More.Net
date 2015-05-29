@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Diagnostics.Contracts;
 using System.Reactive.Linq;
 
-namespace Light.Reactive.Linq
+namespace More.Net.Reactive.Linq
 {
     /// <summary>
     /// 
@@ -28,7 +28,6 @@ namespace Light.Reactive.Linq
         /// <summary>
         /// 
         /// </summary>
-        /// <typeparam name="TSource"></typeparam>
         /// <typeparam name="TResult1"></typeparam>
         /// <typeparam name="TResult2"></typeparam>
         /// <param name="subscribe"></param>
@@ -45,7 +44,6 @@ namespace Light.Reactive.Linq
         /// <summary>
         /// 
         /// </summary>
-        /// <typeparam name="TSource"></typeparam>
         /// <typeparam name="TResult1"></typeparam>
         /// <typeparam name="TResult2"></typeparam>
         /// <param name="subscribe"></param>

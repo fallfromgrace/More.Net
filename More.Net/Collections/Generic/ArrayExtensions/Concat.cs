@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace EZMetrology
+namespace More.Net
 {
     /// <summary>
     /// 

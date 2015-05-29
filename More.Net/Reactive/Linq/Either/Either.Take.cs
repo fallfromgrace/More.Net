@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Diagnostics.Contracts;
 using System.Reactive.Linq;
 
-namespace Light.Reactive.Linq
+namespace More.Net.Reactive.Linq
 {
     public static partial class Either
     {
@@ -37,6 +37,7 @@ namespace Light.Reactive.Linq
         /// </summary>
         /// <typeparam name="TSource1"></typeparam>
         /// <typeparam name="TSource2"></typeparam>
+        /// <typeparam name="TSource3"></typeparam>
         /// <param name="source"></param>
         /// <returns></returns>
         public static IObservable<TSource1> TakeFirstType<TSource1, TSource2, TSource3>(
@@ -80,6 +81,7 @@ namespace Light.Reactive.Linq
         /// </summary>
         /// <typeparam name="TSource1"></typeparam>
         /// <typeparam name="TSource2"></typeparam>
+        /// <typeparam name="TSource3"></typeparam>
         /// <param name="source"></param>
         /// <returns></returns>
         public static IObservable<TSource2> TakeSecondType<TSource1, TSource2, TSource3>(
@@ -102,6 +104,7 @@ namespace Light.Reactive.Linq
         /// </summary>
         /// <typeparam name="TSource1"></typeparam>
         /// <typeparam name="TSource2"></typeparam>
+        /// <typeparam name="TSource3"></typeparam>
         /// <param name="source"></param>
         /// <returns></returns>
         public static IObservable<TSource3> TakeThirdType<TSource1, TSource2, TSource3>(

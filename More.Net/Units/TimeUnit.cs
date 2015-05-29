@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EZMetrology.Units
+namespace More.Net.Units
 {
     public struct TimeUnit : IUnit<TimeUnit>
     {

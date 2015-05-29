@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Reactive;
 
-namespace Light.Channels
+namespace More.Net.Channels
 {
     /// <summary>
     /// 

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Reactive.Linq;
 
-namespace EZMetrology.Media
+namespace More.Net.Media
 {
     public static class ICameraExtensions
     {

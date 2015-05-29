@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EZMetrology
+namespace More.Net
 {
     /// <summary>
     /// 
@@ -47,6 +47,7 @@ namespace EZMetrology
         /// </summary>
         /// <param name="x"></param>
         /// <param name="y"></param>
+        /// <param name="z"></param>
         public Point3(TValue x, TValue y, TValue z)
         {
             this.x = x;

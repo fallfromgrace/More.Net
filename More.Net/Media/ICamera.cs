@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using EZMetrology.Units;
+using More.Net.Units;
 
-namespace EZMetrology.Media
+namespace More.Net.Media
 {
     /// <summary>
     /// 

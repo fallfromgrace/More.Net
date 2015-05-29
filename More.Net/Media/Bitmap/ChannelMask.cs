@@ -4,9 +4,9 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using EZMetrology.Collections.Generic;
+using More.Net.Collections.Generic;
 
-namespace EZMetrology.Media
+namespace More.Net.Media
 {
     public struct ChannelMask
     {

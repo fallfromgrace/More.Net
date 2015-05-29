@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Reflection;
 
-namespace EZMetrology.Reflection
+namespace More.Net.Reflection
 {
     public static class PropertyInfoExtensions
     {

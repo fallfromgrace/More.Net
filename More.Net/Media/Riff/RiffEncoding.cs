@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EZMetrology.Media
+namespace More.Net.Media
 {
     /// <summary>
     /// Resource Interchange File Format

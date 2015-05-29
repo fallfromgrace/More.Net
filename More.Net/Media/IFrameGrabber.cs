@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EZMetrology.Media
+namespace More.Net.Media
 {
     /// <summary>
     /// Allows for the capture of video frames on one or more cameras.

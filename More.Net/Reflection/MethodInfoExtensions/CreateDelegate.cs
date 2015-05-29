@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace EZMetrology.Reflection
+namespace More.Net.Reflection
 {
     /// <summary>
     /// 
@@ -13,6 +13,7 @@ namespace EZMetrology.Reflection
         /// </summary>
         /// <typeparam name="TDelegate"></typeparam>
         /// <param name="source"></param>
+        /// <param name="selector"></param>
         /// <returns></returns>
         public static TDelegate CreateDelegate<TDelegate>(
             this MethodInfo source,
@@ -25,8 +26,11 @@ namespace EZMetrology.Reflection
         /// <summary>
         /// 
         /// </summary>
+        /// <typeparam name="TTarget"></typeparam>
         /// <typeparam name="TDelegate"></typeparam>
         /// <param name="source"></param>
+        /// <param name="selector"></param>
+        /// <param name="target"></param>
         /// <returns></returns>
         public static TDelegate CreateDelegate<TTarget, TDelegate>(
             this MethodInfo source, 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EZMetrology.Linq
+namespace More.Net.Linq
 {
     /// <summary>
     /// 
@@ -48,6 +48,7 @@ namespace EZMetrology.Linq
         /// Catches all exceptions of the specified type.
         /// </summary>
         /// <typeparam name="TSource"></typeparam>
+        /// <typeparam name="TException"></typeparam>
         /// <param name="source"></param>
         /// <returns></returns>
         public static IEnumerable<TSource> Catch<TSource, TException>(
@@ -82,6 +83,7 @@ namespace EZMetrology.Linq
         /// Catches all exceptions of the specified type, and specified callback.
         /// </summary>
         /// <typeparam name="TSource"></typeparam>
+        /// <typeparam name="TException"></typeparam>
         /// <param name="source"></param>
         /// <param name="onError"></param>
         /// <returns></returns>

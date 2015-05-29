@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace Light.Linq.Expressions
+namespace More.Net.Linq.Expressions
 {
     /// <summary>
     /// 

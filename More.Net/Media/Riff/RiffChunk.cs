@@ -4,7 +4,7 @@
 //using System.Text;
 //using System.Threading.Tasks;
 
-//namespace EZMetrology.Media.Riff
+//namespace More.Net.Media.Riff
 //{
 //    public class RiffChunk : IChunk
 //    {

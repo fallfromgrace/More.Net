@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Light
+namespace More.Net
 {
     /// <summary>
     /// 

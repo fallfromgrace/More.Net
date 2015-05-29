@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections;
 
-namespace EZMetrology.Linq
+namespace More.Net.Linq
 {
     public static partial class LinqExtensions
     {

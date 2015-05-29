@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Light.Console
+namespace More.Net.Console
 {
     class Program
     {

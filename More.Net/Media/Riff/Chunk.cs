@@ -4,7 +4,7 @@
 //using System.Text;
 //using System.Threading.Tasks;
 
-//namespace EZMetrology.Media
+//namespace More.Net.Media
 //{
 //    public interface IChunk
 //    {

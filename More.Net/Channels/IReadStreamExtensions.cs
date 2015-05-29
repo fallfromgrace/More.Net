@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Reactive.Linq;
 
-namespace Light.Channels
+namespace More.Net.Channels
 {
     /// <summary>
     /// 

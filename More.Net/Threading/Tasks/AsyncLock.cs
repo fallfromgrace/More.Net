@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace EZMetrology.Threading
+namespace More.Net.Threading
 {
     /// <summary>
     /// 

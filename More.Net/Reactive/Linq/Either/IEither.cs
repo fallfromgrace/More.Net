@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Light.Reactive.Linq
+namespace More.Net.Reactive.Linq
 {
     /// <summary>
     /// 
@@ -65,6 +65,7 @@ namespace Light.Reactive.Linq
     /// <typeparam name="TItem1"></typeparam>
     /// <typeparam name="TItem2"></typeparam>
     /// <typeparam name="TItem3"></typeparam>
+    /// <typeparam name="TItem4"></typeparam>
     public interface IEither<TItem1, TItem2, TItem3, TItem4>
     {
         TItem1 Item1 { get; }

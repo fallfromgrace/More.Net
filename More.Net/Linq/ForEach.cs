@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics.Contracts;
 
-namespace Light.Linq
+namespace More.Net.Linq
 {
     /// <summary>
     /// 
@@ -15,7 +15,7 @@ namespace Light.Linq
         /// <summary>
         /// Immediately executes the given action on each element in the source sequence.
         /// </summary>
-        /// <typeparam name="T">The type of the elements in the sequence</typeparam>
+        /// <typeparam name="TSource">The type of the elements in the sequence</typeparam>
         /// <param name="source">The sequence of elements</param>
         /// <param name="action">The action to execute on each element</param>
         /// <exception cref="ArgumentNullException"><paramref name="source"/> or <paramref name="action"/> is null.</exception>

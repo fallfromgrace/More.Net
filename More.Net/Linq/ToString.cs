@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Light.Linq
+namespace More.Net.Linq
 {
     public static partial class LinqExtensions
     {

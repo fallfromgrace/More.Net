@@ -183,7 +183,7 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 
-# LightSwitch generated files
+# More.NetSwitch generated files
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml

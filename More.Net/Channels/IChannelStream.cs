@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Light.Channels
+namespace More.Net.Channels
 {
     /// <summary>
     /// 

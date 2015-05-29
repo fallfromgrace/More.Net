@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reactive.Disposables;
 
-namespace EZMetrology
+namespace More.Net
 {
     /// <summary>
     /// Extensions for IDisposable using reactive extensions.
@@ -11,7 +11,7 @@ namespace EZMetrology
         /// <summary>
         /// Adds the disposable object to a CompositeDisposable.
         /// </summary>
-        /// <typeparam name="T"></typeparam>
+        /// <typeparam name="TDisposable"></typeparam>
         /// <param name="disposable"></param>
         /// <param name="cd"></param>
         public static void DisposeWith<TDisposable>(

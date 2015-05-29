@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EZMetrology
+namespace More.Net
 {
     public struct VersionInfo : IComparable, IComparable<VersionInfo>, IEquatable<VersionInfo>
     {

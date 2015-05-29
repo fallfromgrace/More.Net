@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Diagnostics.Contracts;
 
-namespace Light
+namespace More.Net
 {
     /// <summary>
     /// 

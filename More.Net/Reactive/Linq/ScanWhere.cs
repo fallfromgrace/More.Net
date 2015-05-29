@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reactive.Linq;
 
-namespace EZMetrology.Reactive.Linq
+namespace More.Net.Reactive.Linq
 {
     public static partial class ObservableExtensions
     {

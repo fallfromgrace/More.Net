@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace EZMetrology.Reflection
+namespace More.Net.Reflection
 {
     /// <summary>
     /// System.Reflection.MethodInfo Extensions
@@ -27,7 +27,7 @@ namespace EZMetrology.Reflection
         /// <summary>
         /// 
         /// </summary>
-        /// <typeparam name="Tin1"></typeparam>
+        /// <typeparam name="TParam1"></typeparam>
         /// <param name="source"></param>
         /// <returns></returns>
         public static Action<TParam1> CreateAction<TParam1>(
@@ -39,8 +39,8 @@ namespace EZMetrology.Reflection
         /// <summary>
         /// 
         /// </summary>
-        /// <typeparam name="Tin1"></typeparam>
-        /// <typeparam name="Tin2"></typeparam>
+        /// <typeparam name="TParam1"></typeparam>
+        /// <typeparam name="TParam2"></typeparam>
         /// <param name="source"></param>
         /// <returns></returns>
         public static Action<TParam1, TParam2> CreateAction<TParam1, TParam2>(
@@ -63,7 +63,8 @@ namespace EZMetrology.Reflection
         /// <summary>
         /// 
         /// </summary>
-        /// <typeparam name="Tin1"></typeparam>
+        /// <typeparam name="TParam1"></typeparam>
+        /// <typeparam name="TTarget"></typeparam>
         /// <param name="source"></param>
         /// <param name="target"></param>
         /// <returns></returns>
@@ -77,8 +78,9 @@ namespace EZMetrology.Reflection
         /// <summary>
         /// 
         /// </summary>
-        /// <typeparam name="Tin1"></typeparam>
-        /// <typeparam name="Tin2"></typeparam>
+        /// <typeparam name="TParam1"></typeparam>
+        /// <typeparam name="TParam2"></typeparam>
+        /// <typeparam name="TTarget"></typeparam>
         /// <param name="source"></param>
         /// <param name="target"></param>
         /// <returns></returns>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EZMetrology.Units
+namespace More.Net.Units
 {
     /// <summary>
     /// 
@@ -90,7 +90,7 @@ namespace EZMetrology.Units
         /// </summary>
         public static LengthUnit LightYear
         {
-            get { return lightYear; }
+            get { return LightYear; }
         }
 
         /// <summary>

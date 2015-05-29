@@ -6,7 +6,7 @@ using System.Diagnostics;
 using System.Diagnostics.Contracts;
 using System.Runtime.InteropServices;
 
-namespace Light.Common
+namespace More.Net
 {
     public static class ByteArrayExtensions
     {

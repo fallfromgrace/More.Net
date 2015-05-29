@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Linq.Expressions;
 
-namespace EZMetrology.Linq.Expressions
+namespace More.Net.Linq.Expressions
 {
     /// <summary>
     /// 
     /// </summary>
     /// <remarks>
-    /// From MiscUtil written by Jon with minor bug fixes & modifications.
+    /// From MiscUtil written by Jon with minor bug fixes and modifications.
     /// </remarks>
     public static class Function
     {
@@ -50,17 +50,19 @@ namespace EZMetrology.Linq.Expressions
         /// <summary>
         /// Create a function delegate representing a binary operation
         /// </summary>
+        /// <typeparam name="TArg1">The first parameter type</typeparam>
+        /// <typeparam name="TArg2">The second parameter type</typeparam>
+        /// <typeparam name="TResult">The return type</typeparam>
+        /// <param name="bodyFactory">Body factory</param>
         /// <param name="castArgsToResultOnFailure">
         /// If no matching operation is possible, attempt to convert
         /// TArg1 and TArg2 to TResult for a match? For example, there is no
         /// "decimal operator /(decimal, int)", but by converting TArg2 (int) to
         /// TResult (decimal) a match is found.
         /// </param>
-        /// <typeparam name="TArg1">The first parameter type</typeparam>
-        /// <typeparam name="TArg2">The second parameter type</typeparam>
-        /// <typeparam name="TResult">The return type</typeparam>
-        /// <param name="body">Body factory</param>
-        /// <returns>Compiled function delegate</returns>
+        /// <returns>
+        /// Compiled function delegate
+        /// </returns>
         public static Func<TArg1, TArg2, TResult> FromExpression<TArg1, TArg2, TResult>(
             Func<Expression, Expression, BinaryExpression> bodyFactory, bool castArgsToResultOnFailure)
         {

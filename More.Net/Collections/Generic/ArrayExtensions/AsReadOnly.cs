@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace EZMetrology.Collections.Generic
+namespace More.Net.Collections.Generic
 {
     /// <summary>
     /// 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Light.Common.Logging
+namespace More.Net.Common.Logging
 {
     public interface ILogger
     {

@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Linq.Expressions;
 using System.Reflection;
-using Light.Linq.Expressions;
+using More.Net.Linq.Expressions;
 
-namespace Light.Reflection
+namespace More.Net.Reflection
 {
     public static class ObjectExtensions
     {

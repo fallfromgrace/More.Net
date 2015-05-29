@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace EZMetrology.Collections.Generic
+namespace More.Net.Collections.Generic
 {
     /// <summary>
     /// Allows the adding or removing of a collection of items as a single operation.

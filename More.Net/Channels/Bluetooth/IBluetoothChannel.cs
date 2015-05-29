@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Reactive;
 
-namespace Light.Channels.Experimental
+namespace More.Net.Channels.Experimental
 {
     public interface IBluetoothChannel : IChannel
     {

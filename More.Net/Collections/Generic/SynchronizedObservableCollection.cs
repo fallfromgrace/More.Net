@@ -3,13 +3,13 @@ using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Threading;
 
-namespace EZMetrology.Collections.Generic
+namespace More.Net.Collections.Generic
 {
-    /// <summary>
-    /// A specialized observable collection that uses a synchronization context to post collection 
-    /// and property change notification to the correct thread.
-    /// </summary>
-    /// <typeparam name="T"></typeparam>
+    ///// <summary>
+    ///// A specialized observable collection that uses a synchronization context to post collection 
+    ///// and property change notification to the correct thread.
+    ///// </summary>
+    ///// <typeparam name="T"></typeparam>
     //public class SynchronizedObservableCollection<T> : BulkObservableCollection<T>, ISynchronizable
     //{
     //    #region ISynchronizable
