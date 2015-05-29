@@ -14,14 +14,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{ACDA61
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "More.Net.Tests", "More.Net.Tests\More.Net.Tests.csproj", "{12365151-42F6-4DF9-83A3-6795CB5FE1CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "More.Net.Logging", "More.Net.Logging\More.Net.Logging.csproj", "{176A7307-4F0E-40E2-8CB2-BC036DFD1F74}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "More.Net.Console", "More.Net.Console\More.Net.Console.csproj", "{D6DF465C-5615-44D0-8876-8FF46E8D1287}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".git", ".git", "{6C9C073A-9EBD-4F62-B8CE-12132D087A2F}"
 	ProjectSection(SolutionItems) = preProject
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A7298D6E-1438-4212-9055-C2F1C9C8D47D}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global
@@ -38,10 +42,6 @@ Global
 		{12365151-42F6-4DF9-83A3-6795CB5FE1CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12365151-42F6-4DF9-83A3-6795CB5FE1CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12365151-42F6-4DF9-83A3-6795CB5FE1CE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{176A7307-4F0E-40E2-8CB2-BC036DFD1F74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{176A7307-4F0E-40E2-8CB2-BC036DFD1F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{176A7307-4F0E-40E2-8CB2-BC036DFD1F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{176A7307-4F0E-40E2-8CB2-BC036DFD1F74}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D6DF465C-5615-44D0-8876-8FF46E8D1287}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D6DF465C-5615-44D0-8876-8FF46E8D1287}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6DF465C-5615-44D0-8876-8FF46E8D1287}.Release|Any CPU.ActiveCfg = Release|Any CPU
